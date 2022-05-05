@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Form1</title>
+    <link rel="shortcut icon" href="Servidor.png">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="form1.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+    </style>
+
+</head>
+    <body>
+        <form>
+            <header>
+                <h1 align="center">Insira o seu cadastro para acessar a plataforma</h1>
+            </header>
+            <div class="inputs">
+                <div id="input">
+                    <h2>login</h2>
+                    <input type="textarea" placeholder="  Insira seu nome de Usuário ou email" >
+                </div>
+                
+                <div id="input">
+                    <h2>Senha</h2>
+                    <input type="password" placeholder="  Insira sua senha" >
+                </div>
+                
+                <div id="input">
+                    <h2>Setor</h2>
+                    <input type="textarea" placeholder="  Insira seu setor" >
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
